@@ -1,0 +1,215 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+}
+
+/* HEADER */
+
+header {
+  background: purple;
+  color: white;
+  padding: 20px;
+}
+
+header h2 {
+  margin-top: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+nav button {
+  background: white;
+  color: purple;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* PAGE */
+
+.page {
+  padding: 30px;
+}
+
+/* LOGIN */
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #f5f5f5;
+}
+
+/* LOGIN HEADER */
+
+.login-header {
+  background: purple;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+.login-header h2 {
+  margin: 0;
+  font-size: 26px;
+}
+
+.login-header p {
+  margin: 8px 0 0;
+}
+
+/* LOGIN CONTENT */
+
+.login-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  background: white;
+  width: 350px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px #ccc;
+}
+
+.login-box h1 {
+  text-align: center;
+  color: purple;
+}
+
+.login-box input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 12px;
+  margin: 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 12px;
+  background: purple;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.login-box button:hover {
+  background: #5a189a;
+}
+
+/* LOGIN FOOTER */
+
+.login-footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.login-footer p {
+  margin: 5px;
+}
+
+/* BUTTON */
+
+button,
+.button {
+  background: purple;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* CARDS */
+
+.restaurant-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card,
+.details-card,
+.form-box,
+.success {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px #ccc;
+  margin: 15px 0;
+}
+
+.card {
+  width: 300px;
+}
+
+.details-card {
+  max-width: 550px;
+}
+
+/* FORM */
+
+.form-box {
+  max-width: 450px;
+}
+
+.form-box input,
+.form-box select,
+.form-box textarea {
+  display: block;
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0 20px;
+}
+
+.form-box textarea {
+  height: 80px;
+}
+
+/* RESERVATION NAV */
+
+.reservation-nav {
+  background: #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.reservation-nav a {
+  color: purple;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+/* SUCCESS */
+
+.success {
+  max-width: 500px;
+}
